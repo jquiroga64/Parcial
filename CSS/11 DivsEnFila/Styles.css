@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    align-items: center; /* Centrar el contenido verticalmente */
+    height: 100vh; /* Para que ocupe toda la altura de la ventana */
+}
+
+.parent-container {
+    width: 80%; /* Ancho del 80% */
+    display: flex; 
+    justify-content: space-around; /* Espacio uniforme entre los hijos */
+    padding: 20px;
+    background-color: #ffffffb2;
+    border: 1px solid #f00000;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
+} 
+
+.child-container1 {
+    background-color: #a10000; /* Color específico para el Div 1 */
+    color: white;
+    padding: 20px;
+    margin: 10px; /* Márgenes entre los divs */
+    border-radius: 5px;
+    flex: 0 0 15%; /* Ajusta el ancho de los hijos para que se alineen horizontalmente */
+    text-align: center;
+    transition: background-color 0.3s;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
+}
+
+.child-container2 {
+    background: radial-gradient(circle, #0b9406, #ffe600); /* Gradiente radial */
+    color: white;
+    padding: 20px;
+    margin: 10px; /* Márgenes entre los divs */
+    border-radius: 5px;
+    flex: 0 0 15%; /* Ajusta el ancho de los hijos para que se alineen horizontalmente */
+    text-align: center;
+    transition: background-color 0.3s;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
+}
+
+.child-container3 {
+    background-image: url('C:/xampp/htdocs/Trabajos/CSS/cssparte 1/10DivsEnPila/images (1).jpeg');
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el div */
+    border: 5px solid #ddd; /* Bordes alrededor del div */
+    height: 150px;
+    color: white;
+    padding: 20px;
+    margin: 10px; /* Márgenes entre los divs */
+    border-radius: 5px;
+    flex: 0 0 15%; /* Ajusta el ancho de los hijos para que se alineen horizontalmente */
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
+}
+
+.child-container4 {
+    background: linear-gradient(90deg, #ff0000, #0000ff); 
+    color: white;
+    padding: 20px;
+    margin: 10px; /* Márgenes entre los divs */
+    border-radius: 5px;
+    flex: 0 0 15%; /* Ajusta el ancho de los hijos para que se alineen horizontalmente */
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
+}
+
+.child-container5 {
+    background: linear-gradient(-90deg, #ff0000, #0000ff);
+    padding: 20px;
+    margin: 10px; /* Márgenes entre los divs */
+    border-radius: 5px;
+    flex: 0 0 15%; /* Ajusta el ancho de los hijos para que se alineen horizontalmente */
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
+}
+
+.child-container6 {
+    background-color: #3F51B5; /* Color específico para el Div 6 */
+    color: white;
+    padding: 20px;
+    margin: 10px; /* Márgenes entre los divs */
+    border-radius: 5px;
+    flex: 0 0 15%; /* Ajusta el ancho de los hijos para que se alineen horizontalmente */
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
+}
